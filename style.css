@@ -1,0 +1,36 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display :flex;
+  flex-direction: column;
+  allign-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+h1 {
+  margin-bottom: 30px;
+  font-size: 24px;
+}
+
+.goal-box {
+  width: 300px;
+  height: 50px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 0;
+  font-size: 18px;
+  position: relative;
+  cursor: pointer;
+}
+
+.goal-input {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  text-allign: center;
+  border: none;
+  display: none;
+}
